@@ -1,0 +1,30 @@
+.group3 {
+  width: 176px;
+  height: 24px;
+  display: block;
+  position: relative;
+}
+.svg {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #bebebe;
+  width: 24px;
+  height: 24px;
+  display: block;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.text {
+  display: block;
+  font-size: 22.936px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 17.202px;
+  color: rgba(189, 189, 189, 1);
+  position: absolute;
+  top: 2px;
+  left: 27px;
+}

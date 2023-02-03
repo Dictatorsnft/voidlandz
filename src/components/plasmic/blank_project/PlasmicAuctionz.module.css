@@ -1,0 +1,37 @@
+.layer41 {
+  background: url("./images/layer41.png") center center / cover no-repeat;
+  transform: translate(-0.27800000000002px, 0.2259999999999991px);
+  width: 144px;
+  height: 221px;
+  display: block;
+  position: relative;
+  transition-property: all, all;
+  transition-duration: 0.2s, 1s;
+  transition-timing-function: ease-out, ease;
+  cursor: not-allowed;
+  -webkit-transition-property: all, all;
+  -webkit-transition-timing-function: ease-out, ease;
+  -webkit-transition-duration: 0.2s, 1s;
+}
+.layer41:hover {
+  width: 147px;
+  height: 226px;
+  background: url("./images/image2.png") 0% 0% / cover;
+  box-shadow: 0px 4px 16px 0px #00000033;
+  transform: scaleX(1.2) scaleY(1.2) scaleZ(1);
+}
+.h3 {
+  width: 144px;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  white-space: pre-wrap;
+  text-transform: uppercase;
+  box-shadow: none;
+  position: absolute;
+  left: -8px;
+  top: 182px;
+  text-align: center;
+  backdrop-filter: drop-shadow(10px 10px 10px #ffffff);
+  font-size: 24px;
+  -webkit-backdrop-filter: drop-shadow(10px 10px 10px #ffffff);
+}

@@ -1,0 +1,69 @@
+.layer31 {
+  background: url("./images/layer31.png") center center / cover no-repeat;
+  width: 147px;
+  height: 226px;
+  display: block;
+  position: relative;
+  transform: none;
+  transition-property: all;
+  transition-duration: 0.2s;
+  cursor: not-allowed;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.2s;
+}
+.layer31:hover {
+  transform: scaleX(1.2) scaleY(1.2) scaleZ(1);
+  box-shadow: 0px 4px 16px 0px #00000033;
+  background: url("./images/image.png") 0% 0% / cover;
+}
+.text {
+  position: absolute;
+  width: 98px;
+  height: auto;
+  max-width: 800px;
+  left: -7px;
+  top: 71px;
+  color: #ffffff;
+  font-family: "Nanum Pen Script";
+  font-weight: 700;
+  padding-right: 2px;
+  backdrop-filter: drop-shadow(10px 10px 10px #ffffff);
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  text-align: center;
+  display: none;
+  -webkit-backdrop-filter: drop-shadow(10px 10px 10px #ffffff);
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 1s;
+}
+.layer31:hover .text {
+  display: block;
+}
+.h3__duzrD {
+  width: 144px;
+  color: #ffffff;
+  font-family: "Zen Dots";
+  white-space: pre-wrap;
+  text-transform: uppercase;
+  box-shadow: none;
+}
+.layer31:hover .h3__duzrD {
+  display: none;
+}
+.h3__rMhBs {
+  width: 144px;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  white-space: pre-wrap;
+  text-transform: uppercase;
+  box-shadow: none;
+  position: absolute;
+  left: -5px;
+  top: 179px;
+  text-align: center;
+  backdrop-filter: drop-shadow(10px 10px 10px #ffffff);
+  font-size: 24px;
+  -webkit-backdrop-filter: drop-shadow(10px 10px 10px #ffffff);
+}
