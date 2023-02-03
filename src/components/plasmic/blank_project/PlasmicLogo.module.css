@@ -1,0 +1,13 @@
+.logo61 {
+  background: url("./images/logo61.png") center center / cover no-repeat;
+  width: 157px;
+  height: 159px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .logo61 {
+    display: none;
+  }
+}

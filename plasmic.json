@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -48,7 +48,8 @@
           "name": "FollowWrapper",
           "componentImportPath": "@plasmicpkgs/react-twitter-widgets"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "2cuDFUXxXegfBqeyzrcCDf",
@@ -132,6 +133,19 @@
             "modulePath": "Socials.tsx"
           },
           "cssFilePath": "plasmic/blank_project/PlasmicSocials.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "zOYKwat2aT",
+          "name": "Logo",
+          "type": "managed",
+          "projectId": "2cuDFUXxXegfBqeyzrcCDf",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicLogo.tsx",
+          "importSpec": {
+            "modulePath": "Logo.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicLogo.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         }

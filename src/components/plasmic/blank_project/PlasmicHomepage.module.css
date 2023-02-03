@@ -317,38 +317,34 @@
     left: 1433px;
   }
 }
-.logo61 {
-  background: url("./images/logo61.png") center center / cover no-repeat;
-  width: 157px;
-  height: 159px;
-  display: block;
+.logo:global(.__wab_instance) {
   position: absolute;
   top: 0px;
   left: 0px;
 }
 @media (max-width: 1600px) {
-  .logo61 {
-    left: 0px;
+  .logo:global(.__wab_instance) {
     top: 0px;
+    left: 0px;
   }
 }
 @media (max-width: 1440px) {
-  .logo61 {
-    left: -70px;
+  .logo:global(.__wab_instance) {
     top: 0px;
+    left: -70px;
   }
 }
 @media (max-width: 1200px) {
-  .logo61 {
-    left: 0px;
+  .logo:global(.__wab_instance) {
     top: 0px;
+    left: 0px;
     display: none;
   }
 }
 @media (max-width: 834px) {
-  .logo61 {
-    left: 0px;
+  .logo:global(.__wab_instance) {
     top: 0px;
+    left: 0px;
   }
 }
 .logo64 {

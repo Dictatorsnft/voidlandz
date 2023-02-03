@@ -36,6 +36,7 @@ import Auctionz from "../../Auctionz"; // plasmic-import: kfgyQqEyCn/component
 import Voidswap from "../../Voidswap"; // plasmic-import: IqSSF-3-Gh/component
 import Stake from "../../Stake"; // plasmic-import: TK_mjQnmcM/component
 import Socials from "../../Socials"; // plasmic-import: X_iWq4AcxZ/component
+import Logo from "../../Logo"; // plasmic-import: zOYKwat2aT/component
 import { FollowWrapper } from "@plasmicpkgs/react-twitter-widgets"; // plasmic-import: zqQBieQcfl/codeComponent
 
 import { useScreenVariants as useScreenVariantss4NvdSi2ApY1J } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: s4NvdSi2apY1J/globalVariant
@@ -62,7 +63,7 @@ export type PlasmicHomepage__OverridesType = {
   bastardz2023AllRightsReserved?: p.Flex<"div">;
   socials?: p.Flex<typeof Socials>;
   group2?: p.Flex<"div">;
-  logo61?: p.Flex<"div">;
+  logo?: p.Flex<typeof Logo>;
   logo64?: p.Flex<"div">;
   logo62?: p.Flex<"div">;
   follow?: p.Flex<typeof FollowWrapper>;
@@ -228,10 +229,10 @@ function PlasmicHomepage__RenderFunc(props: {
                 className={classNames(projectcss.all, sty.group2)}
               >
                 {(hasVariant(globalVariants, "screen", "mac") ? true : true) ? (
-                  <div
-                    data-plasmic-name={"logo61"}
-                    data-plasmic-override={overrides.logo61}
-                    className={classNames(projectcss.all, sty.logo61)}
+                  <Logo
+                    data-plasmic-name={"logo"}
+                    data-plasmic-override={overrides.logo}
+                    className={classNames("__wab_instance", sty.logo)}
                   />
                 ) : null}
               </div>
@@ -464,7 +465,7 @@ const PlasmicDescendants = {
     "bastardz2023AllRightsReserved",
     "socials",
     "group2",
-    "logo61",
+    "logo",
     "logo64",
     "logo62",
     "follow"
@@ -476,15 +477,15 @@ const PlasmicDescendants = {
     "bastardz2023AllRightsReserved",
     "socials",
     "group2",
-    "logo61",
+    "logo",
     "logo64"
   ],
   iknklnkln1: ["iknklnkln1"],
   logo63: ["logo63"],
   bastardz2023AllRightsReserved: ["bastardz2023AllRightsReserved"],
   socials: ["socials"],
-  group2: ["group2", "logo61"],
-  logo61: ["logo61"],
+  group2: ["group2", "logo"],
+  logo: ["logo"],
   logo64: ["logo64"],
   logo62: ["logo62"],
   follow: ["follow"]
@@ -500,7 +501,7 @@ type NodeDefaultElementType = {
   bastardz2023AllRightsReserved: "div";
   socials: typeof Socials;
   group2: "div";
-  logo61: "div";
+  logo: typeof Logo;
   logo64: "div";
   logo62: "div";
   follow: typeof FollowWrapper;
@@ -575,7 +576,7 @@ export const PlasmicHomepage = Object.assign(
     ),
     socials: makeNodeComponent("socials"),
     group2: makeNodeComponent("group2"),
-    logo61: makeNodeComponent("logo61"),
+    logo: makeNodeComponent("logo"),
     logo64: makeNodeComponent("logo64"),
     logo62: makeNodeComponent("logo62"),
     follow: makeNodeComponent("follow"),
